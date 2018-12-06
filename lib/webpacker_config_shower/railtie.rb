@@ -1,4 +1,2 @@
-module WebpackerConfigShower
-  class Railtie < ::Rails::Railtie
-  end
+class WebpackerConfigShower::Engine < ::Rails::Engine
 end
